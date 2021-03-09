@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2ca78bdf-a7fc-4158-9fb1-1af7c0da5a91",
+		"_postman_id": "5d38388c-6b29-4323-a639-0e3c35b2781e",
 		"name": "Google Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -13,7 +13,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Status code is 201\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.have.status(201);\r",
 							"});"
 						],
 						"type": "text/javascript"
